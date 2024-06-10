@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background-color: darkblue;
+}
+
+.navbar_index{
+    display: flex;
+    justify-content: space-between;/*박스 사이 빈 공간 생성*/
+    align-items: center;/*박스들을 정렬*/
+    background-color: darkblue;/*배경색 지정*/
+    padding: 5px 12px;
+    height: 5%;
+}
+
+.navbar_logo1 a{
+    text-decoration: none;
+    font-weight: bold;
+    color: orange;
+}
+
+.navbar_logo1 a:hover{
+    color: yellowgreen;
+}
+
+.navbar_menu1{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding-left: 0;
+}
+
+.navbar_menu1 li{
+    padding: 8px 30px;
+}
+
+.navbar_menu1 li:hover{
+    color: darkblue;
+    background-color: yellowgreen;
+    border-radius: 3px;
+}
+
+.navbar_menu1 li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar_menu1 li a:hover{
+    color: black;
+}
