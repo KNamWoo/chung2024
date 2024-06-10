@@ -1,8 +1,9 @@
-var mapContainer = document.getElementById('map'),
-    mapOptions = {
+var Container = document.getElementById('map');
+
+var mapOptions = {
     center: new naver.maps.LatLng(37.3595704, 127.105399),
     zoom: 10,
     mapTypeControl: true
 };
 
-var map = new naver.maps.Map(mapContainer, mapOptions);
+var map = new naver.maps.Map(Container, mapOptions);
