@@ -78,7 +78,7 @@ body{
   top: 7%;
   left: 0;
   bottom: 0;
-  width: 300px;
+  width: 250px;
   height: 80vh;
   margin: 10px 0 30px 10px;
   padding: 5px;
@@ -134,7 +134,7 @@ body{
   color: #8a8a8a;
 }
 #placesList .info .jibun {
-  padding-left: 0;
+  padding-left: 26px;
   background: url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/places_jibun.png)
     no-repeat;
 }
