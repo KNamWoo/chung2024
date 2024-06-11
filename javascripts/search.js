@@ -11,7 +11,7 @@ var mapOptions = {
 
 var map = new naver.maps.Map(Container, mapOptions);//지도 생성
 
-var locPosition = new naver.maps.LatLng(37.4720, 126.6608)//청운대 인천캠퍼스를 출발지로
+var locPosition = new kakao.maps.LatLng(37.4720, 126.6608)//청운대 인천캠퍼스를 출발지로
 presentPosition = locPosition;
 
 map.setCenter(locPosition);//보낼 출발지를 청운대로 설정하기
