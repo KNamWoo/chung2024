@@ -67,7 +67,7 @@ function displayPlaces(places){
         const lat = places[i].y;
 
         var placePosition = new naver.maps.LatLng(places[i].y, places[i].x),
-            marker = adddMarker(placePosition, i),
+            marker = addMarker(placePosition, i),
             itemEl = getListItem(i, places[i]);//검색 결과 항목 Element를 생성
         
         bounds.extend(placePosition);//검색 장소 위치 기준 지도 범위 재설정을 위해 LatLngBounds 객체에 좌표 추가
