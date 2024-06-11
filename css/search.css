@@ -134,7 +134,7 @@ body{
   color: #8a8a8a;
 }
 #placesList .info .jibun {
-  padding-left: 26px;
+  padding-left: 0;
   background: url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/places_jibun.png)
     no-repeat;
 }
@@ -146,7 +146,7 @@ body{
   position: absolute;
   width: 36px;
   height: 37px;
-  margin: 0 0 0 10px;
+  margin: 10px 0 0 10px;
   background: url(https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/marker_number_blue.png)
     no-repeat;
 }
