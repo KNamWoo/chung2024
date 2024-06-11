@@ -11,11 +11,11 @@ var mapOptions = {
 
 var map = new naver.maps.Map(Container, mapOptions);//지도 생성
 
-var mapOptions = {
+/*var mapOptions = {
     center: new kakao.maps.LatLng(37.3595704, 127.105399),
     zoom: 10,
     mapTypeControl: true
-};
+};*/
 var locmap = new kakao.maps.Map(Container, mapOptions);
 var locPosition = new kakao.maps.LatLng(37.4720, 126.6608)//청운대 인천캠퍼스를 출발지로
 presentPosition = locPosition;
