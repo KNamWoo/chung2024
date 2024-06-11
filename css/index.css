@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: darkblue;
+    background-color: white;
 }
 
 .navbar_index{
@@ -50,5 +50,5 @@ body{
 
 .first_img{
     height: 500px;/*높이*/
-    width: 100%;/*가로*/
+    width: max-content;/*가로*/
 }
