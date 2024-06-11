@@ -115,7 +115,7 @@ function displayPlaces(places){
     listEl.appendChild(fragment);//검색결과 항목을 결과 목록 Elemnet에 추가
     menuEl.scrollTop = 0;
 
-    map.setBounds(bounds);//검색 장소 위치를 기준으로 지도 재설정
+    /*map.setBounds(bounds);//검색 장소 위치를 기준으로 지도 재설정*/
 }
 
 function getListItem(index, places){//검색결과 항목을 Element로 반환
