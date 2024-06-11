@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <link rel="stylesheet" href="../css/search.css" />
+        <link rel="stylesheet" href="/css/search.css" />
     </head>
     <body>
         <nav class="navbar_search">
@@ -17,9 +17,25 @@
             </ul>
         </nav>
 
-        <div id="map" class="mapcss"></div>
+        <div id="map_wrap_style" class="map_warp"></div>
+            <div id="map" class="mapcss"></div>
+
+            <div id="menu_wrap" class="bg_white">
+                <div class="option">
+                    <div>
+                        <form class="form">
+                            키워드 : <input type="text" value="" id="keyword" size="15">
+                            <button type="submit">검색하기</button>
+                        </form>
+                    </div>
+                </div>
+                <hr>
+                <ul id="placesList"></ul>
+                <div id="pagination"></div>
+            </div>
 
         <script type="text/javascript" src="https://oapi.map.naver.com/openapi/v3/maps.js?ncpClientId=kf1tb4xvjj"></script>
-        <script src="../javascripts/search.js"></script>
+        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2c17c63895c70f99c88660a9321a9409&libraries=services"></script>
+        <script src="/javascripts/search.js"></script>
     </body>
 </html>
