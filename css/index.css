@@ -47,3 +47,8 @@ body{
 .navbar_menu1 li a:hover{
     color: black;
 }
+
+.first_img{
+    height: 500px;/*높이*/
+    width: 100%;/*가로*/
+}
