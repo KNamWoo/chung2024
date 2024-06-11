@@ -66,7 +66,7 @@ function displayPlaces(places){
         const lon = places[i].x;
         const lat = places[i].y;
 
-        var placePosition = new naver.maps.LatLng(places[i].y, places[i].x),
+        var placePosition = new kakao.maps.LatLng(places[i].y, places[i].x),
             marker = addMarker(placePosition, i),
             itemEl = getListItem(i, places[i]);//검색 결과 항목 Element를 생성
         
@@ -120,15 +120,19 @@ function displayPlaces(places){
 
 function getListItem(index, places){//검색결과 항목을 Element로 반환
     var el = document.createElement('li'),
-    itemStr = '<span class = "markerbg marker_' + (index+1)+'"></span'+'<div class = "info">'+'<h5>'+places.place_name+'</h5>';
+    itemStr = '<span class = "markerbg marker_' + (index+1)+'"></span'+
+                '<div class = "info">'+
+                '   <h5>'+places.place_name+'</h5>';
 
     if (places.road_address_name) {
-        itemStr += '    <span>' + places.road_address_name + '</span>' + '   <span class="jibun gray">' +  places.address_name  + '</span>';
+        itemStr += '    <span>' + places.road_address_name + '</span>' +
+                    '   <span class="jibun gray">' +  places.address_name  + '</span>';
     } else {
         itemStr += '    <span>' +  places.address_name  + '</span>'; 
     }
                  
-    itemStr += '  <span class="tel">' + places.phone  + '</span>' + '</div>';           
+    itemStr += '  <span class="tel">' + places.phone  + '</span>' +
+                '</div>';           
  
     el.innerHTML = itemStr;
     el.className = 'item';
