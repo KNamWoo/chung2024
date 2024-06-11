@@ -73,11 +73,11 @@ function displayPlaces(places){
         bounds.extend(placePosition);//검색 장소 위치 기준 지도 범위 재설정을 위해 LatLngBounds 객체에 좌표 추가
 
         (function(marker, title){
-            naver.maps.event.addListener(marker, 'mouseover', function(){
+            naver.maps.Event.addListener(marker, 'mouseover', function(){
                 displayInfowindow(marker, title);
             });
 
-            naver.maps.event.addListener(marker, 'mouseout', function(){
+            naver.maps.Event.addListener(marker, 'mouseout', function(){
                 infowindow.close();
             });
 
@@ -91,7 +91,7 @@ function displayPlaces(places){
         })(marker, places[i].place_name);
 
         (function(marker, title){
-            naver.maps.event.addListener(marker, 'click', function(){
+            naver.maps.Event.addListener(marker, 'click', function(){
                 searchDetailAddrFromCoords(presentPosition, function(result, status){
                     if(status === kakao.maps.services.Status.OK){
                         detailAddr = !!result[0].road_address ? result[0].road_address.address_name : result[0].address.address_name;
