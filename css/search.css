@@ -80,11 +80,11 @@ body{
 }
 #menu_wrap {/*메뉴창*/
   position: absolute;
-  top: 10%;
+  top: 7%;
   left: 0;
   bottom: 0;
   width: 300px;
-  height: 90vh;
+  height: 80vh;
   margin: 10px 0 30px 10px;
   padding: 5px;
   overflow-y: auto;
