@@ -63,7 +63,16 @@ body{
     width: max-content;
 }
 
+.forth_img{
+    height: 500px;
+    width: max-content;
+}
+
 .information{
     text-align: center;
-    line-height: 100px;
+    line-height: 25px;/*간격*/
+}
+
+.imgbox{
+    margin: 0 -25px;
 }
