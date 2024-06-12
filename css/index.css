@@ -76,3 +76,8 @@ body{
 .imgbox{
     margin: 0 -25px;
 }
+
+.search_btn{
+    color: blue;
+    text-decoration: white;
+}
