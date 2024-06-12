@@ -74,12 +74,13 @@ body{
 }
 
 .imgbox{
-    margin: 0 -25px;
+    margin: -25px 0px;
 }
 
 .search_btn{
     background-color: blue;
     color: white;
-    width: 30px;
-    height: auto;
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
 }
