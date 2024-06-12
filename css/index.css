@@ -1,10 +1,10 @@
-body{
+body{/*메인 배경*/
     margin: 0;
     background-color: white;
 }
 
-.navbar_index{
-    display: flex;
+.navbar_index{/*네비게이션바의 전체적인 요소*/
+    display: flex;/*화면의 크기에 따라 자동으로 바뀜*/
     justify-content: space-between;/*박스 사이 빈 공간 생성*/
     align-items: center;/*박스들을 정렬*/
     background-color: darkblue;/*배경색 지정*/
@@ -12,13 +12,13 @@ body{
     height: 5%;
 }
 
-.navbar_logo1 a{
+.navbar_logo1 a{/*왼쪽의 요소(글씨)*/
     text-decoration: none;
     font-weight: bold;
     color: orange;
 }
 
-.navbar_logo1 a:hover{
+.navbar_logo1 a:hover{/*왼쪽의 Kim 글씨에 마우스를 올리면 변경*/
     color: yellowgreen;
 }
 
@@ -33,7 +33,7 @@ body{
     padding: 8px 30px;
 }
 
-.navbar_menu1 li:hover{
+.navbar_menu1 li:hover{/*오른쪽의 "지도로 이동"에 마우스를 올리면 색이 변경됨*/
     color: darkblue;
     background-color: yellowgreen;
     border-radius: 3px;
@@ -70,12 +70,12 @@ body{
 
 .information{
     text-align: center;
-    line-height: 25px;/*간격*/
+    line-height: 25px;/*글씨들의 간격*/
 }
 
-.search_btn{
-    background-color: blue;
-    color: white;
+.search_btn{/*버튼의 크기와 색 조정*/
+    background-color: blue;/*버튼의 배경색*/
+    color: white;/*버튼의 글씨 색*/
     width: 100px;
     height: 35px;
     font-size: 15px;
