@@ -78,6 +78,7 @@ body{
 }
 
 .search_btn{
-    color: blue;
-    text-decoration: white;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
 }
