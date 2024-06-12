@@ -73,10 +73,6 @@ body{
     line-height: 25px;/*간격*/
 }
 
-.imgbox{
-    margin: -25px 0px;
-}
-
 .search_btn{
     background-color: blue;
     color: white;
